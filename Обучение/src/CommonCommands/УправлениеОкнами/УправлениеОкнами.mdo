@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c85b6048-dec4-4dc8-a670-246e76f3cb28">
+  <name>УправлениеОкнами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление окнами</value>
+  </synonym>
+  <group>CommandGroup.Окна</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

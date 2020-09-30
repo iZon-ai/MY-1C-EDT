@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c884dd0c-80a5-4ebc-bffa-c8905bc94230">
+  <producedTypes>
+    <objectType typeId="77b59d53-732b-4d4e-843c-e6f05574ae97" valueTypeId="87e525fb-c5bd-49a4-8404-79020c1aa7a5"/>
+    <refType typeId="93140e3e-6287-4c29-8001-e06d239290c1" valueTypeId="f47c2a65-b4fe-467f-9735-a7ec3ca86b92"/>
+    <selectionType typeId="f6489d11-42bc-4a06-8c5a-745fde659ba8" valueTypeId="a180087d-2c99-4b65-a271-8f2b77cf6a10"/>
+    <listType typeId="83a114bb-fb3c-436d-aeae-6c39aabe6b26" valueTypeId="24ed2e70-eea0-4027-8031-5617dd9ca8a0"/>
+    <managerType typeId="5b7081f3-c6d2-47fc-af61-5021963f771b" valueTypeId="30d53056-abc5-42d7-9a02-4117d8264af3"/>
+    <containerType typeId="3eb014ab-c653-4344-b54c-8e3e9de12100" valueTypeId="1e489469-b777-4373-bf97-5f18ff255980"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные реквизиты и сведения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Дополнительный реквизит / сведение</value>
+  </objectPresentation>
+  <characteristicExtValues>Catalog.ДополнительныеЗначения</characteristicExtValues>
+  <type>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.ДополнительныеЗначения</types>
+    <types>Boolean</types>
+    <types>CatalogRef.Договоры</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>Number</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.ТипыЦен</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="08c316fb-d8e7-4bf9-a608-2414d1db9103">
+    <name>ЭтоДополнительноеСведение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это дополнительное сведение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d314365f-f0af-4392-98e2-7d1fa4432465">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03839050-f4cd-4415-8067-f411a3fbca21">
+    <name>ДополнительныеЗначенияИспользуются</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные значения используются</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e66d816a-cc83-4f5f-be46-ffe43ac4f061">
+    <name>ВладелецДополнительныхЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец дополнительных значений</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3f590b46-1f19-4734-aea3-7de03148a20f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="212afc4e-08ac-46c6-90e5-8db83d34972b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

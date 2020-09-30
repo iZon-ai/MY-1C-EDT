@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5864e6e-20e7-4fd0-8388-80d72ab5e924">
+  <producedTypes>
+    <selectionType typeId="9041c5b3-1adf-464d-945a-7c02c6540774" valueTypeId="27f802b3-21da-4fd2-8be1-695bfbddf1d8"/>
+    <listType typeId="26e86ee2-356c-449f-aab7-bbb46a33e9e8" valueTypeId="d11dbf26-ff2b-499f-8dc9-06a76df5811e"/>
+    <managerType typeId="6abd9889-7954-428c-a083-d58ddb43e1cc" valueTypeId="fb3347ff-0123-438c-8cbb-bfcd53284f98"/>
+    <recordSetType typeId="e38429b1-de4e-43f3-93f3-dc28544aa1c5" valueTypeId="d3753c80-1176-4bbb-983d-05863324a233"/>
+    <recordKeyType typeId="9af1f7b5-1143-4351-a536-8c52a3c00b37" valueTypeId="35139a42-5883-4e84-92a5-dec70117479c"/>
+    <recordType typeId="23362e13-027b-43ac-a8bf-f13a2e18e1b0" valueTypeId="e5e958eb-585c-46ac-9948-9fe5405bbe04"/>
+    <recordManagerType typeId="ddb1d479-71e6-463c-a3fa-6579be917398" valueTypeId="6fb0c69d-168b-4e53-a29a-833bb92481f0"/>
+  </producedTypes>
+  <name>ПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4bc19a62-3dac-4377-b833-7bf4eb82a0c2">
+    <name>Хранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2ac9e672-5002-49d2-975a-2b187bdbc499">
+    <name>ПрисоединенныйФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присоединенный файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

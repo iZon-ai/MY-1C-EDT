@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e24bf660-42f8-4ba6-ba04-e275e2e130c1">
+  <producedTypes>
+    <objectType typeId="348547a2-14a5-415c-a3ad-6a2f4fd2e2e1" valueTypeId="823c6508-cc55-4fd9-9d3d-1204d0f3d126"/>
+    <refType typeId="ecad2c45-ae7c-4568-99c1-75d7faf88b33" valueTypeId="61e2bf57-1e6d-4410-b317-9166e2757b00"/>
+    <selectionType typeId="61886e9a-f31f-4051-9401-71b04e3ffaf3" valueTypeId="ff23c29c-3bec-4b72-aec1-cb04bd833a9a"/>
+    <listType typeId="09180b12-dc6c-4ba3-84e3-7d3c16de75d2" valueTypeId="81e652ae-9706-451b-8fd9-9c3b2c7aa15c"/>
+    <managerType typeId="7c5b9423-4eb7-44e8-986a-d86540066e96" valueTypeId="32ce3055-0771-4844-8a83-5b904cca0632"/>
+  </producedTypes>
+  <name>ПараметрыКонтекстныхФункциональныхОпций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры контекстных функциональных опций</value>
+  </synonym>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="11f1b7cb-9644-44b1-aa51-82b0620d5e7f">
+    <name>ВестиУчетПоДоговорам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет по договорам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

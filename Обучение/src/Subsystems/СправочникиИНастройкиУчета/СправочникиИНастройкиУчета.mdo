@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c7b574f-2a68-4d9e-9834-aba9e199956e">
+  <name>СправочникиИНастройкиУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники и настройки учета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>Общие</subsystems>
+</mdclass:Subsystem>

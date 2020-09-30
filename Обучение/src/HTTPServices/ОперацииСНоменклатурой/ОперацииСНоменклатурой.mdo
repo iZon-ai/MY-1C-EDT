@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7309f5d1-d27e-4560-8353-137deb67771e">
+  <name>ОперацииСНоменклатурой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции с номенклатурой</value>
+  </synonym>
+  <rootURL>products</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="da5b7ebb-12c3-4240-9c29-b653fd0ccdb6">
+    <name>ШаблонURL1</name>
+    <template>/get_product/</template>
+    <methods uuid="d14a6ca9-ef71-487c-bf65-16f97fd804dd">
+      <name>ПолучитьДанныеПоНоменклатуре</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить данные по номенклатуре</value>
+      </synonym>
+      <handler>ШаблонURL1ПолучитьДанныеПоНоменклатуре</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="be70644a-4f96-4fe5-b387-abc1af55bad9">
+    <name>ИзучениеПередачиПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изучение передачи параметров</value>
+    </synonym>
+    <template>/get_products_barcode/{barcode}</template>
+    <methods uuid="169b24b0-8db2-43b6-b40b-4ab0b917dd70">
+      <name>ПолучитьНоменклатуруПоШтрихкоду</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить номенклатуру по штрихкоду</value>
+      </synonym>
+      <handler>ИзучениеПередачиПараметровПолучитьНоменклатуруПоШтрихкоду</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

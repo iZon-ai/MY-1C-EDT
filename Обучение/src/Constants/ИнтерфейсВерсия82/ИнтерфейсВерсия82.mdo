@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53a3e208-3e72-4b5c-bd01-bc6cbae53e3b">
+  <producedTypes>
+    <managerType typeId="c2d587f1-85eb-4d9c-8d8e-704f531cf597" valueTypeId="045d5d41-cd34-4baf-b279-2f2b5d107cf4"/>
+    <valueManagerType typeId="307f35a0-1929-4c78-b801-a317ec870eaf" valueTypeId="3fc38e67-f71c-4a36-8601-c4828693ffc7"/>
+    <valueKeyType typeId="a06167d8-aa39-5914-82ee-eebc526d24d8" valueTypeId="ce74637c-6e38-5479-b7bf-2d58584c724b"/>
+  </producedTypes>
+  <name>ИнтерфейсВерсия82</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс версия82</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

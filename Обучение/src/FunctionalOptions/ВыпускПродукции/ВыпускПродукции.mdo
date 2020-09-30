@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e68c7238-5607-43ee-a6ea-7ea1eb495e41">
+  <name>ВыпускПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск продукции</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитика.Resource.ВыпускПродукции</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

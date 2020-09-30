@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cca2d2c-8b3b-4559-bdcb-14e1e4e43695">
+  <name>ОказаниеУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оказание услуг</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитика.Resource.ОказаниеУслуг</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.РеализацияТоваровУслуг.TabularSection.Услуги</content>
+</mdclass:FunctionalOption>

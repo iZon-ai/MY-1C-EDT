@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3c2d2da-da6b-48ff-a18e-8416063c86ca">
+  <name>ИнтерфейсТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс такси</value>
+  </synonym>
+  <location>Catalog.Пользователи.Attribute.Интерфейс2</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Продажи</content>
+  <content>Subsystem.Покупки</content>
+  <content>Subsystem.Склад</content>
+  <content>Subsystem.Справочники</content>
+  <content>Subsystem.Отчеты</content>
+</mdclass:FunctionalOption>

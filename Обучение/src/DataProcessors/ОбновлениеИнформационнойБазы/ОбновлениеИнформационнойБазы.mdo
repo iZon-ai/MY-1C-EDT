@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcaed03e-a4d5-4d99-a9f5-4ee1bd8dff8d">
+  <producedTypes>
+    <objectType typeId="3642e005-478b-43c6-afdf-84c8c2485198" valueTypeId="ab72b241-0968-4112-adb8-8b57348b1fb0"/>
+    <managerType typeId="3c755d99-9982-44d5-8222-77aa9e865b34" valueTypeId="fdd61635-d4cc-431e-bea0-9a1e73030c3a"/>
+  </producedTypes>
+  <name>ОбновлениеИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление информационной базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновлениеИнформационнойБазы.Form.ПервыйЗапуск</defaultForm>
+  <forms uuid="630f5656-d1bb-42a0-b598-f63c66504e29">
+    <name>ПервыйЗапуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первый запуск</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ccc4415b-493d-41f2-a9fd-b4ed9d70ee10">
+    <name>Обновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

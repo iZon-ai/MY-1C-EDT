@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92f3ec29-ab43-4a96-a0a0-f4d5856eae55">
+  <name>ИнтерфейсВерсия82</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс версия82</value>
+  </synonym>
+  <location>Catalog.Пользователи.Attribute.Интерфейс1</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ПокупкиИПродажи</content>
+  <content>Subsystem.Номенклатура</content>
+  <content>Subsystem.СправочникиИНастройкиУчета</content>
+</mdclass:FunctionalOption>

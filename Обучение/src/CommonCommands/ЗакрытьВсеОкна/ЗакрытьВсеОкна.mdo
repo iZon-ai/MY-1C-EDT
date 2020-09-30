@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce68ba96-92e9-4481-8fa5-bf52d5d58f65">
+  <name>ЗакрытьВсеОкна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрыть все окна</value>
+  </synonym>
+  <group>CommandGroup.Окна</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

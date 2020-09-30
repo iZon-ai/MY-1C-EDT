@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59f12f37-2d2d-43e7-a2f4-ef158e13c323">
+  <name>PAPI_ОбработкаМетодовGET</name>
+  <synonym>
+    <key>ru</key>
+    <value>PAPI обработка методов GET</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

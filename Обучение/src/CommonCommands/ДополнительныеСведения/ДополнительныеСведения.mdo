@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3303a8d8-afde-449f-9617-d8ff8ba2ccc7">
+  <name>ДополнительныеСведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные сведения</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ДополнительныеСведения</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

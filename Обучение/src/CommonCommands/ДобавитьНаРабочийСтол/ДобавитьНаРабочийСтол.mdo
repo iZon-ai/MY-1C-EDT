@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2842608-2dac-4e49-875e-cdd6cb576350">
+  <name>ДобавитьНаРабочийСтол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить на рабочий стол</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Picture</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ДобавитьНаРабочийСтол</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

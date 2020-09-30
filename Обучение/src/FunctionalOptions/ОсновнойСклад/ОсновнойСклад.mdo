@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8d0b4b9-76a8-4888-9528-7731aa344388">
+  <name>ОсновнойСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной склад</value>
+  </synonym>
+  <location>Constant.ОсновнойСклад</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

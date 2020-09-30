@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d819bb0-91d3-4e9b-b906-6ed236d6b79c">
+  <producedTypes>
+    <selectionType typeId="13db4406-1515-44fe-960a-2d9023305540" valueTypeId="398e63c4-3c03-466b-96ec-98103052b1ac"/>
+    <listType typeId="c3e0d4b1-0616-4c2a-baf1-9ee759a93e42" valueTypeId="df4b7115-0e53-4a2a-9f67-68264ba3f94e"/>
+    <managerType typeId="6ba713d6-7b86-4403-ba67-0fd58d50fe68" valueTypeId="2cabb297-e840-40d0-b8b5-fa9e254f83d3"/>
+    <recordSetType typeId="205a7e82-921e-4a8e-afab-430469e3750f" valueTypeId="9e2d3dfb-9e16-450a-be0c-f194b4dba52e"/>
+    <recordKeyType typeId="869ddc34-a326-4e5c-bb7a-7f42808c75cf" valueTypeId="a6271634-7e07-49e5-a219-d7f471ae3eb8"/>
+    <recordType typeId="97f76e89-c824-4d84-b9da-af7e4abd043c" valueTypeId="d9d2dc57-3db3-448c-aa0b-31580bfbf32b"/>
+    <recordManagerType typeId="d05ebb9e-2a5d-45d4-a545-928df3061055" valueTypeId="0fd80b14-c058-4755-adc3-fc2aaeb3dfb8"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5a084f16-2319-41fb-9a6e-8dcabbb4412d">
+    <name>ОказаниеУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оказание услуг</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eb926ac8-6cd2-43b8-a551-5fbc639e4387">
+    <name>ВыпускПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выпуск продукции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="374c6387-989e-4a2f-a7c0-e165520a637b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

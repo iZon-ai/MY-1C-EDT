@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55402e32-004f-4c17-bf22-0034e55e2ae7">
+  <producedTypes>
+    <selectionType typeId="6684648c-77fd-45e3-9052-39b0a9f59343" valueTypeId="fe1d721a-677b-475e-864a-3e90d2678a98"/>
+    <listType typeId="131e6067-c633-4719-b983-9e422a8c06a6" valueTypeId="18975fc0-b62f-49be-b317-1be4ddb9b769"/>
+    <managerType typeId="bab00ff7-a46b-4bb4-8583-8b52ad06bf3e" valueTypeId="c5ab5f54-1c24-461b-9e6c-c10d1c9156c1"/>
+    <recordSetType typeId="16d1ac1a-956d-4c29-984a-139afbbcb0f8" valueTypeId="f4816458-91eb-404a-ad15-dfc32dd0ec8c"/>
+    <recordKeyType typeId="e44651bd-8483-433b-b99f-1d5f858592c5" valueTypeId="1bcb222c-13bb-40fd-a9e2-5850068082b3"/>
+    <recordType typeId="da9faefd-9280-4282-9862-b12a556044e3" valueTypeId="a0cb2ac9-3a23-407b-a127-04182730b95d"/>
+    <recordManagerType typeId="8be6ef04-5b7c-41cb-81d5-d570a440e3f4" valueTypeId="ee79ac2d-3d39-4368-a8f1-c79ca7329135"/>
+  </producedTypes>
+  <name>Штрихкоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="75f8a543-80fb-4b91-9375-3bbfb9255371">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="580332af-a2d1-4370-9853-3ea1e9fbaa59">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

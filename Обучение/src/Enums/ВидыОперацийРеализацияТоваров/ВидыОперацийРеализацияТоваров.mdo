@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="911a9ff6-dffb-4441-a0ba-a3df72d3605e">
+  <producedTypes>
+    <refType typeId="fa46468d-e1b5-4bc5-964f-62b6fb78b647" valueTypeId="999ff850-129b-4dc8-ba49-c3119a2f65ab"/>
+    <listType typeId="11877186-4fe0-4d86-b80a-8e067fcee25c" valueTypeId="304e87fb-7eb6-4198-bceb-76db329647c5"/>
+    <managerType typeId="14fcbd31-65b7-4ba4-87eb-f7d9cac221cb" valueTypeId="42b0ffbd-ee01-49a2-aef4-13736efd3fdb"/>
+  </producedTypes>
+  <name>ВидыОперацийРеализацияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций реализация товаров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9d588493-e2e7-4831-a4ea-3fc29df8953c">
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары (Накладная)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2462ea1-35d3-4464-ae7f-d2809417d019">
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги (Акт)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66c35991-ed23-458e-9514-b1e3b8d45b60">
+    <name>ТоварыИУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары и услуги</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
