@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba2c0eb3-67c2-44a2-9a71-0836786fba4f">
+  <producedTypes>
+    <objectType typeId="e46c2b1a-74d7-4631-b3d3-5b5ee382160e" valueTypeId="157b1ea7-8948-41ae-b73a-8746006c9517"/>
+  </producedTypes>
+  <name>СписокЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список значений</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="0791f7ce-571a-4240-a41b-f045e54248ec"/>
+  <defaultForm>ExternalDataProcessor.СписокЗначений.Form.Форма</defaultForm>
+  <forms uuid="8154ab10-62d9-46f7-a5fb-89c5642d9258">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
