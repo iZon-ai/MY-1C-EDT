@@ -115,10 +115,6 @@
       <event>ValueChoice</event>
       <name>СписокВыборЗначения</name>
     </handlers>
-    <handlers>
-      <event>Selection</event>
-      <name>СписокВыбор</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>

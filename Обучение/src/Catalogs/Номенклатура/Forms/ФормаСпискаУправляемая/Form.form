@@ -138,10 +138,6 @@
         <autoFill>true</autoFill>
       </autoCommandBar>
       <handlers>
-        <event>Selection</event>
-        <name>СписокГруппВыбор</name>
-      </handlers>
-      <handlers>
         <event>OnActivateRow</event>
         <name>СписокГруппПриАктивизацииСтроки</name>
       </handlers>
@@ -654,10 +650,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
